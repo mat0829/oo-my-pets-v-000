@@ -29,7 +29,7 @@ class Owner
   end
   
   def self.say_species
-    if dog == species
+    
     
   end
 
