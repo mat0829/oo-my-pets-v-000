@@ -11,6 +11,7 @@ class Owner
       :dogs = [],
       :cats = []
     }
+    @@all << self
   end
   
   
