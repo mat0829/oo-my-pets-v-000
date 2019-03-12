@@ -60,7 +60,7 @@ class Owner
   end
   
   def sell_pets
-    @pets.each do { ||
+    @pets.each do { |species, species_array|
   end
 
 end
