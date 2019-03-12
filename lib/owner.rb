@@ -67,7 +67,7 @@ class Owner
   end
 
   def list_pets
-    fish_num = fishes.count
+    fish_num = @pets[fishes].count
   end
 
 end
