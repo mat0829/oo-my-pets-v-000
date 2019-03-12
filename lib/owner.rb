@@ -68,8 +68,8 @@ class Owner
 
   def list_pets
     fish_num = @pets[:fishes].count
-    dog_num = @pets[:dogs].count
     cat_num = @pets[:cats].count
+    dog_num = @pets[:dogs].count
     puts "I have #{fish_num} fish, #{dog_num} dog(s), and #{cat_num} cat(s)."
   end
 
